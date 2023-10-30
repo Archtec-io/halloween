@@ -1,5 +1,6 @@
 read_globals = {
-	"minetest"
+	"minetest",
+	"armor"
 }
 
 globals = {
