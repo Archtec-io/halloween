@@ -1,0 +1,6 @@
+# textdomain: halloween
+Caramelized Sugar=
+Candycorn=
+Halloween Chocolate=
+Lolipop=
+Caramel Apple=
