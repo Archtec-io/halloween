@@ -1,6 +1,6 @@
 halloween = {
-	S = minetest.get_translator("halloween"),
-	MP = minetest.get_modpath("halloween")
+	S = core.get_translator("halloween"),
+	MP = core.get_modpath("halloween")
 }
 
 local MP = halloween.MP
@@ -16,7 +16,7 @@ armor:register_armor("halloween:mask_cat", {
 	groups = {armor_head=1, armor_use=1000}
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = "halloween:mask_cat",
 	recipe = {
 		{"wool:black", "", "wool:black"},
